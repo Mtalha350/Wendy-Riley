@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 21px;
+}
+
+.paragraph {
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #333;
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 252, 252);
+  padding: 1.5rem;
+  border-bottom: 5px solid #168b87;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.8rem;
+  margin-right: 13rem;
+}
+
+.main-nav-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #58898c;
+}
+
+.facebook-logo {
+  display: none;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 2.8rem;
+  width: 2.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close"] {
+  display: none;
+}
+
+.hero-section {
+  background-image: url(/img/talha.webp);
+  height: 120vh;
+  width: 98.7vw;
+  background-size: cover;
+  margin-top: 3px;
+}
+
+.heading-primary {
+  font-size: 4.5rem;
+  padding: 16rem 10rem 0;
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+
+.btn {
+  margin-left: 28rem;
+  padding: 15px 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #fff;
+  box-shadow: 0 2rem 4rem rgb(198, 183, 183);
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-scope {
+  background: linear-gradient(to top left, #fc9b96, #fd493fef);
+}
+
+.btn-scope:hover,
+.btn-scope:active {
+  color: rgb(246, 235, 235);
+}
+
+/* /////////////////////// */
+/* Section Email part */
+
+.Email-section {
+  background-color: #d4edfb;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem 0;
+}
+
+.img {
+  height: 60vh;
+  display: inline-block;
+  margin-left: 10rem;
+}
+
+.paragraph-1 {
+  font-size: 22px;
+  font-family: sans-serif;
+  margin-right: 9rem;
+  margin-bottom: 25px;
+}
+
+.email {
+  padding: 0.8rem 14rem 0.8rem 1.5rem;
+  font-size: 18px;
+  margin-bottom: 25px;
+  border: 2px solid #58898c;
+  border-radius: 7px;
+  font-family: Satisfy;
+}
+
+.emails {
+  margin-bottom: 2.5rem;
+}
+
+.emails:hover {
+  background-color: #58e8b8;
+  border: 2px solid #58e8b8;
+}
+
+.email-sign {
+  padding: 0.8rem 10rem 0.8rem 10.5rem;
+  box-shadow: 0 2rem 4rem rgb(205, 205, 216);
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-1 {
+  background: linear-gradient(to top left, #85bcc0, #3b7e82);
+  transition: all 0.5s;
+}
+
+.btn-1:hover,
+.btn-1:active {
+  color: #000;
+}
+
+.creator {
+  position: relative;
+}
+
+.img-1 {
+  position: absolute;
+  top: 5rem;
+  left: 29rem;
+  height: 25vh;
+}
+
+.img-2 {
+  position: absolute;
+  top: 6rem;
+  left: -36rem;
+  height: 26vh;
+}
+
+/* ////////////////////////////// */
+/* Section-Photo */
+
+.heading-secondary {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+}
+
+.photos-part {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 2rem;
+}
+
+.img-clients {
+  height: 65vh;
+}
+
+.picture {
+  text-align: center;
+}
+
+.heading-pic {
+  margin-top: 1.5rem;
+}
+
+/* //////////////////////////////
+Section boxes */
+
+.boxes-section {
+  margin: 4rem 0;
+}
+
+.paragraph-2 {
+  text-align: center;
+  font-size: 22px;
+  margin: 0 21rem;
+}
+
+.paragraph-3 {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.line,
+span {
+  text-decoration: underline;
+}
+
+.box-paragraph {
+  background-color: #d4edfb;
+  border: 3px solid #58898c;
+  width: 40rem;
+  padding: 2rem 4rem;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  margin: 0.5rem 20rem;
+}
+
+.paragraph-4 {
+  margin-left: 4rem;
+}
+
+.paragraph-5 {
+  margin-left: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.logo-1 {
+  height: 13vh;
+  margin: 0 10px -42px -90px;
+}
+
+.paragraph-6 {
+  text-align: center;
+  font-size: 22px;
+  margin: -2rem 21rem 4.5rem;
+}
+
+/* ////////////////////////////
+Section testimonial */
+
+.testimonial {
+  background-color: #d4edfb;
+  padding: 3rem 0;
+}
+
+.heading-2 {
+  font-size: 39px;
+  margin: 0 12rem 1.5rem;
+}
+
+.paragraph-7 {
+  margin: 0 8rem 1.5rem 18rem;
+  font-size: 1.5rem;
+  font-family: Cambria;
+  color: #333;
+}
+
+/* ///////////////////////////
+ Section My Process */
+
+.photos-process {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+.img-process {
+  border-radius: 50%;
+  border: 2px solid #58898c;
+  height: 35vh;
+}
+
+.heading-1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.paragraph-8 {
+  text-align: center;
+  font-size: 22px;
+  margin: 2rem 0;
+  font-family: Cambria;
+}
+
+.paragraph-9 {
+  text-align: center;
+  font-size: 22px;
+  margin: 2rem 10rem;
+  font-family: Cambria;
+}
+
+.paragraph-10 {
+  text-align: center;
+  font-size: 22px;
+  margin: 2rem 13rem;
+  font-family: system-ui;
+}
+
+/* ////////////////////////////// */
+/* Section-About */
+
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-about {
+  height: 105vh;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  margin: 4rem 6rem 2rem;
+}
+
+.paragraph-11 {
+  font-size: 21px;
+  margin: 0 9.5rem 2rem -3rem;
+  text-align: center;
+  font-family: system-ui;
+}
+
+.para-11 {
+  margin-bottom: 4rem;
+}
+
+.btn-2 {
+  margin: 1.7rem;
+}
+
+/* ////////////////////////////// */
+/* Footer */
+
+.footer {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #58898c;
+  padding: 1.5rem;
+  color: rgba(239, 239, 239, 0.829);
+  font-size: 13px;
+}
+
+.click {
+  color: rgba(239, 239, 239, 0.829);
+}
+
+.click:hover {
+  text-decoration: none;
+}
+
+.paragraph-12 {
+  margin-top: 1.5rem;
+}
